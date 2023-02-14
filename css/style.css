@@ -34,12 +34,13 @@ main{
 }
 
 .box_2{
-    border: dashed 2px yellow;
-    width: 600px;
+   width: 600px;
 }
 
 .box_2 img{
     width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px;
 }
 
 .debug .box_3{
