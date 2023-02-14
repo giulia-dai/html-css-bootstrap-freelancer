@@ -6,6 +6,10 @@
 
 }
 
+html{
+    overflow-x: hidden;
+}
+
 header{
     height: 70px;
 }
@@ -27,6 +31,20 @@ main{
     width: 200px;
 }
 
+.box_2{
+    border: dashed 2px yellow;
+    width: 600px;
+}
+
+.box_2 img{
+    width: 100%;
+}
+
+.debug_3 .box{
+    border: dashed 2px red;
+    width: 250px;
+}
+
 #about .container{
     padding: 0 80px;
 }
@@ -42,3 +60,5 @@ background-color: var(--ms-footer-top-color);
 .box img{
     width: 100%;
 }
+
+
