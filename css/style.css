@@ -1,0 +1,40 @@
+:root{
+    --ms-color-green: #1ABC9C;
+    --ms-footer-top-color:  #39546D;
+    --ms-footer-bottom-color: #2C3D50;
+    --ms_nav_background:#2C3E50;
+
+}
+
+header{
+    height: 70px;
+}
+
+main{
+    padding-top: 70px;
+}
+
+.ms_bg_green{
+    background-color: var(--ms-color-green);
+}
+
+.ms_background_nav{
+    background-color: var(--ms_nav_background);
+}
+
+.debug .box{
+    border: dashed 2px black;
+    height: 200px;
+}
+
+#about .container{
+    padding: 0 80px;
+}
+
+.ms_footer_top{
+background-color: var(--ms-footer-top-color);
+}
+
+.ms_footer_bottom{
+    background-color: var(--ms-footer-bottom-color)
+}
