@@ -66,5 +66,7 @@ background-color: var(--ms-footer-top-color);
     padding-bottom: 100px;
 }
 
-
+.ms_width_btn{
+    width: 135px;
+}
 
