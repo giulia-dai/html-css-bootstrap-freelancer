@@ -21,13 +21,15 @@ main{
 .ms_bg_green{
     background-color: var(--ms-color-green);
 }
+.ms_color_green{
+  color: var(--ms-color-green);
+}
 
 .ms_background_nav{
     background-color: var(--ms_nav_background);
 }
 
 .debug .box{
-    border: dashed 2px black;
     width: 200px;
 }
 
@@ -40,9 +42,8 @@ main{
     width: 100%;
 }
 
-.debug_3 .box{
-    border: dashed 2px red;
-    width: 250px;
+.debug .box_3{
+    min-width: 250px;
 }
 
 #about .container{
