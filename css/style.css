@@ -3,19 +3,15 @@
     --ms-footer-top-color:  #39546D;
     --ms-footer-bottom-color: #2C3D50;
     --ms_nav_background:#2C3E50;
-
+    --dark-color: black;
 }
 
 html{
     overflow-x: hidden;
 }
 
-header{
-    height: 70px;
-}
-
 main{
-    padding-top: 70px;
+    padding-top: 78px;
 }
 
 .ms_bg_green{
@@ -70,4 +66,45 @@ background-color: var(--ms-footer-top-color);
 .ms_width_btn{
     width: 135px;
 }
+
+.nav-link:hover {
+    color: var(--ms-color-green);
+}
+
+
+header .nav-link{
+    color: white;
+}
+
+.ms_star::before{
+    content: '';
+    width: 20%;
+    min-width: 150px;
+    display: inline-block;
+    height: 5px;
+    background-color: white;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.ms_star::after{
+    content: '';
+    width: 20%;
+    min-width: 150px;
+    display: inline-block;
+    height: 5px;
+    background-color: white;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.ms_btn:hover{
+    background-color: rgb(33, 59, 33);
+
+}
+
+
+
 
